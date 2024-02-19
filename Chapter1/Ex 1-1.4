@@ -1,1 +1,5 @@
+4. In math notation, leading zeros are okay, as in 02. What happens if you try this in Python?
 
+#Solution
+Python tries interpreting numbers with leading zeros as octal values, and decides to convert them to decimal values.
+That's why there are troubles with numbers having an 8 or 9 in there, as in octal there can't be an 8 (octal 010) or 9 (octal 011).
